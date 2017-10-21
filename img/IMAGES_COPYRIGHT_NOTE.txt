@@ -1,0 +1,2 @@
+While this project's source is released under the GPL-3.0 License,
+the images contained in the /img/ folder are copyright Christina Krämer 

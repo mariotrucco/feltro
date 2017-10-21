@@ -1,0 +1,26 @@
+@import "~bootstrap/scss/bootstrap";
+@import "album";
+
+.feltro-header{
+    background-image: url(/img/impression/IttenImp2.jpg); 
+    background-size: cover; 
+    -webkit-box-shadow: none; 
+    box-shadow: none; 
+    border: 0px; 
+    border-radius: 0px; 
+    min-height: 100vh;
+  }
+
+.squared-ratio {
+    width: 100%;
+    padding-top: 100%; /* 1:1 Aspect Ratio */
+    background-size: cover; 
+}
+
+.dueDisegno {
+    background-image:  url(/img/gallery/dueDisegno.jpg);
+  }
+
+.ittenDisegno {
+    background-image:  url(/img/gallery/IttenDisegno.jpg); 
+  }
