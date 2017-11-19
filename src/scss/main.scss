@@ -1,11 +1,25 @@
 $white-dirty:  #e2e3e0 !default;
 $text-muted: $white-dirty !default;
+$brand-primary:  #292b2c !default;
+$feltro-title-color: #8b8d8e;
+$feltro-title-brackets-color: #96172E;
+$btn-secondary-color: $brand-primary;
+
 
 @import "~bootstrap/scss/bootstrap";
 @import "album";
 
+.feltro-title{
+  color: $feltro-title-color;
+}
+
+.feltro-title-brackets{
+  color: $feltro-title-brackets-color;
+}
+
+
 .feltro-header{
-    background-image: url(/img/impression/IttenImp2.jpg); 
+    background-image: url(/img/impression/ZebraImp2.jpg); 
     background-size: cover; 
     -webkit-box-shadow: none; 
     box-shadow: none; 
