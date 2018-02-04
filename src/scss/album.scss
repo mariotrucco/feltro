@@ -2,6 +2,10 @@
   margin-bottom: 0;
 }
 
+.bg-sidebar {
+  background-color: $white-dirty !important;
+}
+
 .feltro-header{
   background-image: url(/img/impression/IttenImp2.jpg); 
   background-size: cover; 
@@ -16,6 +20,7 @@
   padding-top: 6rem;
   padding-bottom: 6rem;
   margin-bottom: 0;
+  border-radius: 0px; 
   background-color: $brand-inverse;
 }
 
@@ -28,7 +33,7 @@
 }
 
 .jumbotron .container {
-  max-width: 40rem;
+  text-align: justify;
 }
 
 .album {
@@ -62,3 +67,43 @@ footer p {
   margin-bottom: .25rem;
 }
 
+.horizontalLogo{
+  width: 300px; 
+}
+
+@media screen and (min-width: 1600px) {
+  .verticalLogo{
+    position: fixed;
+    bottom: 20px;
+    left: 3.2rem;
+    height: 300px;
+  }
+
+  .custom-toggler{
+    position: fixed;
+    left: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 1600px) {
+  .verticalLogo{
+    position: fixed;
+    bottom: 20px;
+    left: 1.6rem;
+    height: 300px;
+  }
+
+  .custom-toggler{
+    position: fixed;
+    left: 0.8rem;
+  }
+}
+
+
+
+.custom-toggler.navbar-toggler {
+  border-color: #8b8d8e;
+}
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(139, 141, 142, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}

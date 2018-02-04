@@ -6,7 +6,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Feltro</title>
+	<title>felt(ro) by Christina Krämer</title>
 
 	<link href="main.css" rel="stylesheet">
 </head>
@@ -36,10 +36,10 @@
 			</div>
 		</div>
 	</div>
-	<div class="navbar navbar-inverse bg-inverse">
+	<div class="navbar navbar-inverse bg-inverse hidden-lg-up">
 		<div class="container d-flex justify-content-between">
 			<a href="#generalDescription" class="navbar-brand">
-				<span class="feltro-title">felt</span><span class="feltro-title-brackets">(</span><span class="feltro-title">ro</span><span class="feltro-title-brackets">)</span>
+				<img class="img-fluid horizontalLogo" src="img/logos/long.png" alt="felt(ro) by Christina Krämer">
 			</a>
 			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader"
 			 aria-expanded="false" aria-label="Toggle navigation">
@@ -48,76 +48,89 @@
 		</div>
 	</div>
 
-	<section class="jumbotron text-center feltro-header">
-		<div class="container">
-		</div>
-	</section>
-	<div id="generalDescription" class="jumbotron text-center">
-		<div class="container">
-			<p class="lead text-muted">
-				<span class="feltro-title">felt</span><span class="feltro-title-brackets">(</span><span class="feltro-title">ro</span><span class="feltro-title-brackets">)</span> sind handgefertigte Filzteppiche. Meine Teppiche sind das Resultat eines langwierigen, traditionellen Verfahrens
-				und bestehen hauptsächlich aus Schurwolle. Sie verfügen daher über alle Vorteile, die dieser nachwachsende Rohstoff bietet.
-				Sie schaffen ein natürliches und gesundes Wohnklima, indem sie die Luftfeuchtigkeit im Raum regulieren, den Boden isolieren
-				und eine geringe Schmutzhaftung aufweisen. Außerdem sind Wollteppiche sehr elastisch und stabil und daher besonders belastbar.
-				Ein Filzteppich ist also ein hochwertiges und langlebiges Naturprodukt, das jedes Zuhause bereichert. Ein weiterer Vorteil
-				von Filzteppichen ist, dass sie frei in der Form gestaltbar sind, da sie keinem Fadensystem und keiner Maschinengröße
-				unterworfen sind und daher nicht rechteckig oder gradkantig sein müssen. Sie können spielend dem individuellen Raum und
-				Geschmack angepasst werden und sind daher von Haus aus Unikate!</p>
-		</div>
-	</div>
-	<div class="album text-muted">
-		<div class="container">
-			<div class="carousel carousel-fade slide hidden-md-down hidden-lg-up" data-ride="carousel">
-				<div class="carousel-inner" role="listbox">
-					<div class="carousel-item active squared-ratio dueDisegno">
-					</div>
-					<div class="carousel-item squared-ratio ittenDisegno">
-					</div>
-				</div>
-				<a class="carousel-control-prev" href="#imgCarousel" role="button" data-slide="prev">
-					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-					<span class="sr-only">Previous</span>
-				</a>
-				<a class="carousel-control-next" href="#imgCarousel" role="button" data-slide="next">
-					<span class="carousel-control-next-icon" aria-hidden="true"></span>
-					<span class="sr-only">Next</span>
+	<div class="row navbar-inverse px-0">
+
+		<div class="hidden-md-down col-lg-1 bg-sidebar px-0" id="sidebar">
+			
+			<div class="text-center">
+				<button class="custom-toggler mt-1 px-0" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader"
+					aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+			</div>
+			<div class="container d-flex justify-content-between px-0">
+				<a href="#generalDescription" class="navbar-brand">
+					<img class="verticalLogo" src="img/logos/vertical.png" alt="felt(ro) by Christina Krämer">
 				</a>
 			</div>
-			<div id="imgCarousel" class="row">
-				<div class="card ">
-					<img class="img-fluid" src="img/gallery/dueDisegno.jpg" alt="Card image cap">
-					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
-						bit longer.</p>
-				</div>
-				<div class="card">
-					<img class="img-fluid" src="img/gallery/IttenDisegno.jpg" alt="Card image cap">
-					<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
-						bit longer.</p>
+		</div>
+
+		<div class="col-12 col-lg-11 px-0">
+
+			<section class="jumbotron text-center feltro-header">
+				<div class="container"></div>
+			</section>
+
+			<div id="generalDescription" class="jumbotron text-center">
+				<div class="container">
+					<p class="lead text-muted">
+						<span class="feltro-title">felt</span><span class="feltro-title-brackets">(</span><span class="feltro-title">ro</span><span class="feltro-title-brackets">)</span> sind handgefertigte Filzteppiche. Meine Teppiche sind das Resultat eines langwierigen, traditionellen Verfahrens
+						und bestehen hauptsächlich aus Schurwolle. Sie verfügen daher über alle Vorteile, die dieser nachwachsende Rohstoff bietet.
+						Sie schaffen ein natürliches und gesundes Wohnklima, indem sie die Luftfeuchtigkeit im Raum regulieren, den Boden isolieren
+						und eine geringe Schmutzhaftung aufweisen. Außerdem sind Wollteppiche sehr elastisch und stabil und daher besonders belastbar.
+						Ein Filzteppich ist also ein hochwertiges und langlebiges Naturprodukt, das jedes Zuhause bereichert. Ein weiterer Vorteil
+						von Filzteppichen ist, dass sie frei in der Form gestaltbar sind, da sie keinem Fadensystem und keiner Maschinengröße
+						unterworfen sind und daher nicht rechteckig oder gradkantig sein müssen. Sie können spielend dem individuellen Raum und
+						Geschmack angepasst werden und sind daher von Haus aus Unikate!</p>
 				</div>
 			</div>
 
+			<div class="album text-muted">
+				<div class="container">
+					<div id="imgCarousel" class="row">
+						<div class="card ">
+							<img class="img-fluid" src="img/gallery/Pois2.jpg" alt="Card image cap">
+							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+								bit longer.</p>
+						</div>
+						<div class="card">
+							<img class="img-fluid" src="img/gallery/KissenFell.jpg" alt="Card image cap">
+							<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+								bit longer.</p>
+						</div>
+						<div class="card">
+								<img class="img-fluid" src="img/gallery/Scheitel.jpg" alt="Card image cap">
+								<p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little
+									bit longer.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div id="moreAboutMe" class="jumbotron text-center">
+				<div class="container">
+					<p class="lead text-muted">
+						Ich bin Textildesignerin mit verschiedenen kulturellen Hintergründen. Da ich einen Teil meiner Kindheit in Kasachstan verbracht habe, ist der Filzteppich für mich kein allzu exotisches Produkt. Dort wird er traditionell in der Gruppe hergestellt und wegen seiner thermoregulierenden Eigenschaften anschließend als Wandbekleidung und Bodenbelag verwendet. Groß geworden bin ich jedoch in Deutschland und bin fest davon überzeugt, dass der Kontrast zwischen meinen beiden Herkunftsländern einen wesentlichen Vorteil für mein Schaffen  darstellt. 
+						2010 bin ich aus beruflichen Gründen nach Norditalien gezogen und kann nun ein drittes Land ein Stück weit meine Heimat nennen. Ich lebe und arbeite seitdem in Turin, wo  <span class="feltro-title">felt</span><span class="feltro-title-brackets">(</span><span class="feltro-title">ro</span><span class="feltro-title-brackets">)</span> geboren worden ist. Dieses wunderbare Produkt schafft es, meine Liebe zu natürlichen Rohstoffen mit der für traditionelle Herstellungsverfahren zu verbinden.</p>
+				</div>
+			</div>
+
+
+			<footer class="text-muted bg-inverse">
+				<div class="container">
+					<p class="float-right">
+						<a class="text-white" href="#">Back to top</a>
+					</p>
+					<p>&copy; 2018 Christina Krämer</p>
+					<p>The source code of this website is free software, available on
+						<a class="text-white" href="https://github.com/mariotrucco/feltro">GitHub</a> and licensed under the
+						<a class="text-white" href="https://github.com/mariotrucco/feltro/blob/master/LICENSE">GNU General Public License v3.0</a>.</p>
+				</div>
+			</footer>
+
 		</div>
 	</div>
-
-	<div id="moreAboutMe" class="jumbotron text-center">
-		<div class="container">
-			<p class="lead text-muted">
-				Ich bin Textildesignerin mit verschiedenen kulturellen Hintergründen. Da ich einen Teil meiner Kindheit in Kasachstan verbracht habe, ist der Filzteppich für mich kein allzu exotisches Produkt. Dort wird er traditionell in der Gruppe hergestellt und wegen seiner thermoregulierenden Eigenschaften anschließend als Wandbekleidung und Bodenbelag verwendet. Groß geworden bin ich jedoch in Deutschland und bin fest davon überzeugt, dass der Kontrast zwischen meinen beiden Herkunftsländern einen wesentlichen Vorteil für mein Schaffen  darstellt. 
-				2010 bin ich aus beruflichen Gründen nach Norditalien gezogen und kann nun ein drittes Land ein Stück weit meine Heimat nennen. Ich lebe und arbeite seitdem in Turin, wo  felt(ro) geboren worden ist. Dieses wunderbare Produkt schafft es, meine Liebe zu natürlichen Rohstoffen mit der für traditionelle Herstellungsverfahren zu verbinden.</p>
-		</div>
-	</div>
-
-	<footer class="text-muted bg-inverse">
-		<div class="container">
-			<p class="float-right">
-				<a class="text-white" href="#">Back to top</a>
-			</p>
-			<p>&copy; 2017 Christina Krämer</p>
-			<p>The source code of this website is free software, available on
-				<a class="text-white" href="https://github.com/mariotrucco/feltro">GitHub</a> and licensed under the
-				<a class="text-white" href="https://github.com/mariotrucco/feltro/blob/master/LICENSE">GNU General Public License v3.0</a>.</p>
-		</div>
-	</footer>
 
 
 	<script src="bundle.js"></script>
