@@ -6,6 +6,11 @@
   background-color: $white-dirty !important;
 }
 
+.text-feltro-title-color{
+  color: $feltro-title-color 
+}
+
+
 .feltro-header{
   background-image: url(/img/impression/IttenImp2.jpg); 
   background-size: cover; 
@@ -44,18 +49,21 @@
 
 .card {
   float: left;
-  padding: .75rem;
   margin-bottom: 2rem;
+  background-color:$white-dirty;
   border: 0;
 }
 
-.card > img {
-  margin-bottom: .75rem;
+.card h6{
+  padding-top: .75rem;
+  padding-left: .75rem;
+  color: $feltro-title-color;
 }
 
-.card-text {
+.card p{
   font-size: 85%;
-  color: $gray-dark;
+  padding-left: .75rem;
+  color: $feltro-title-color;
 }
 
 footer {
@@ -71,6 +79,26 @@ footer p {
   width: 300px; 
 }
 
+.navbar{
+  background-color:$white-dirty;
+}
+
+#navbarHeader{
+  background-color:$white-dirty;
+}
+
+#navbarHeader a:hover{
+  color: $feltro-title-brackets-color;
+}
+
+.navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(139, 141, 142, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.nopadding{
+  padding: 0 !important;
+}
+
 /*
 sidebar with fixed elements
 */
@@ -82,7 +110,7 @@ sidebar with fixed elements
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(139, 141, 142, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     /*fixed top relative left see https://stackoverflow.com/a/6794097/2754507/*/
     position: fixed;
-    transform: translateX(-50%);
+    transform: translateX(-32%);
   }
 
   .verticalLogo{
@@ -94,18 +122,19 @@ sidebar with fixed elements
 }
 
 @media screen and (max-width: 1600px) {
-  .verticalLogo{
-    position: fixed;
-    bottom: 20px;
-    left: 1.6rem;
-    height: 300px;
-  }
 
   .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(139, 141, 142, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     /*fixed top relative left see https://stackoverflow.com/a/6794097/2754507/*/
     position: fixed;
-    transform: translateX(-50%);
+    transform: translateX(-20%);
+  }
+
+  .verticalLogo{
+    position: fixed;
+    bottom: 20px;
+    left: 1.6rem;
+    height: 300px;
   }
 }
 
