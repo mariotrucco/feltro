@@ -110,7 +110,7 @@ sidebar with fixed elements
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(139, 141, 142, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     /*fixed top relative left see https://stackoverflow.com/a/6794097/2754507/*/
     position: fixed;
-    transform: translateX(-32%);
+    transform: translateX(-50%);
   }
 
   .verticalLogo{
@@ -127,7 +127,7 @@ sidebar with fixed elements
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(139, 141, 142, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
     /*fixed top relative left see https://stackoverflow.com/a/6794097/2754507/*/
     position: fixed;
-    transform: translateX(-20%);
+    transform: translateX(-50%);
   }
 
   .verticalLogo{
