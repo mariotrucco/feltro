@@ -108,12 +108,14 @@ sidebar with fixed elements
     height: 3em;
     width: 3em;
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(139, 141, 142, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    /*fixed top relative left see https://stackoverflow.com/a/6794097/2754507/*/
+    /*fixed top relative left see https://stackoverflow.com/a/6794097/2754507/. Commented out: only vertical logo needs that
     position: fixed;
     transform: translateX(-50%);
+    */
   }
 
   .verticalLogo{
+    /*fixed top relative left see https://stackoverflow.com/a/6794097/2754507/*/
     position: fixed;
     bottom: 20px;
     height: 300px;
@@ -125,12 +127,14 @@ sidebar with fixed elements
 
   .custom-toggler .navbar-toggler-icon {
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(139, 141, 142, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-    /*fixed top relative left see https://stackoverflow.com/a/6794097/2754507/*/
+    /*fixed top relative left see https://stackoverflow.com/a/6794097/2754507/. Commented out: only vertical logo needs that
     position: fixed;
     transform: translateX(-50%);
+    */
   }
 
   .verticalLogo{
+     /*fixed top relative left see https://stackoverflow.com/a/6794097/2754507/*/
     position: fixed;
     bottom: 20px;
     left: 1.6rem;
