@@ -15,13 +15,15 @@
     "postcss-loader": "^2.0.6",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.19.0",
+    "url-loader": "^0.6.2",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start:dev": "webpack-dev-server --inline --port 8080 --host 192.168.1.65 --content-base ."
+    "build-prod": "webpack -p",
+    "start:dev": "webpack-dev-server --inline --port 8080 --host 192.168.1.82 --content-base ."
   },
   "keywords": [],
   "author": "Mario Trucco",
