@@ -1,10 +1,11 @@
-<html lang="de">
+<!DOCTYPE html>
+<html lang="<%= htmlWebpackPlugin.options.lang %>">
 
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 	<meta name="description" content="felt(ro), handgefertigte Filzteppiche by Christina Krämer">
-	<meta name="author" content="">
+	<meta name="author" content="Christina Krämer">
 	<link rel="shortcut icon" href="img/logos/favicon.ico">
 
 	<title>felt(ro) by Christina Krämer</title>
@@ -13,10 +14,10 @@
 
 	<meta property="og:title" content="felt(ro) by Christina Krämer" />
 	<meta property="og:url" content="https://www.felt-ro.com" />
-	<meta property="og:description" content="felt(ro), handgefertigte Filzteppiche by Christina Krämer">
+	<meta property="og:description" content="<%= htmlWebpackPlugin.options.i18n.ogDescription %>">
 	<meta property="og:image" content="https://www.felt-ro.com/img/impression/zebraImpScritta70_opt.jpg">
 	<meta property="og:type" content="website" />
-	<meta property="og:locale" content="de_DE" />
+	<meta property="og:locale" content="<%= htmlWebpackPlugin.options.locale %>" />
 	
 </head>
 
@@ -29,11 +30,11 @@
 			<div class="col-11 bg-sidebar px-0">
 				<div class="row px-0 m-0">
 					<div class="col-lg-8 col-sm-12 pt-4">
-						<h4 class="text-feltro-title-color">About Me</h4>
-						<p class="text-feltro-title-color">Ich bin Textildesignerin mit verschiedenen kulturellen Einflüssen. Da ich einen Teil meiner Kindheit in Kasachstan verbracht habe, <a class="text-feltro-title-color" href="#moreAboutMe">... (mehr)</a> </p>
+						<h4 class="text-feltro-title-color"><%= htmlWebpackPlugin.options.i18n.aboutMe %></h4>
+						<p class="text-feltro-title-color"><%= htmlWebpackPlugin.options.i18n.aboutMeShort %> <a class="text-feltro-title-color" href="#moreAboutMe"><%= htmlWebpackPlugin.options.i18n.more %></a> </p>
 					</div>
 					<div class="col-lg-4 col-sm-12 pt-4">
-						<h4 class="text-feltro-title-color">Email Me</h4>
+						<h4 class="text-feltro-title-color"><%= htmlWebpackPlugin.options.i18n.emailMe %></h4>
 						<ul class="list-unstyled">
 							<li>
 								<a href="mailto:christina.kraemer@felt-ro.com" class="text-feltro-title-color">christina.kraemer@felt-ro.com</a>
@@ -86,14 +87,7 @@
 			<div id="generalDescription" class="jumbotron text-center">
 				<div class="container nopadding">
 					<p class="lead text-muted">
-						<span class="feltro-title">felt</span><span class="feltro-title-brackets">(</span><span class="feltro-title">ro</span><span class="feltro-title-brackets">)</span> sind handgefertigte Filzteppiche. Meine Teppiche sind das Resultat eines langwierigen, traditionellen Verfahrens
-						und bestehen hauptsächlich aus Schurwolle. Sie verfügen daher über alle Vorteile, die dieser nachwachsende Rohstoff bietet.
-						Sie schaffen ein natürliches und gesundes Wohnklima, indem sie die Luftfeuchtigkeit im Raum regulieren, den Boden isolieren
-						und eine geringe Schmutzhaftung aufweisen. Außerdem sind Wollteppiche sehr elastisch und stabil und daher besonders belastbar.
-						Ein Filzteppich ist also ein hochwertiges und langlebiges Naturprodukt, das jedes Zuhause bereichert. Ein weiterer Vorteil
-						von Filzteppichen ist, dass sie frei in der Form gestaltbar sind, da sie keinem Fadensystem und keiner Maschinengröße
-						unterworfen sind und daher nicht rechteckig oder gradkantig sein müssen. Sie können spielend dem individuellen Raum und
-						Geschmack angepasst werden und sind daher von Haus aus Unikate!</p>
+						<span class="feltro-title">felt</span><span class="feltro-title-brackets">(</span><span class="feltro-title">ro</span><span class="feltro-title-brackets">)</span><%= htmlWebpackPlugin.options.i18n.generalDescription %></p>
 				</div>
 			</div>
 
@@ -103,17 +97,17 @@
 						<div class="card" onclick="openGallery('pois')">
 							<img class="img-fluid" src="img/gallery/Pois2_opt.jpg" alt="Card image cap">
 							<h6>POLKA-DOTTED SHEEP</h6>
-							<p>Pommersches Landschaf, Bergschaf, Neuseeland, Gottland</p>
+							<p><%= htmlWebpackPlugin.options.i18n.polkaDottedSheepDesc %></p>
 						</div>
 						<div class="card" onclick="openGallery('kissen')">
 							<img class="img-fluid" src="img/gallery/KissenFell_opt.jpg" alt="Card image cap">
 							<h6>POLKA DOT KISSEN</h6>
-							<p>Pommersches Landschaf, Steinschaf, Neuseeland, Gottland</p>
+							<p><%= htmlWebpackPlugin.options.i18n.polkaDotKissenDesc %></p>
 						</div>
 						<div class="card" onclick="openGallery('scheitel')">
-								<img class="img-fluid" src="img/gallery/Scheitel_opt.jpg" alt="Card image cap">
-								<h6>PARTING</h6>
-								<p>Norsk Spelsau, Steinschaf, Neuseeland, Gottland</p>
+							<img class="img-fluid" src="img/gallery/Scheitel_opt.jpg" alt="Card image cap">
+							<h6>PARTING</h6>
+							<p><%= htmlWebpackPlugin.options.i18n.partingDesc %></p>
 						</div>
 					</div>
 
@@ -123,8 +117,7 @@
 			<div id="moreAboutMe" class="jumbotron text-center">
 				<div class="container nopadding">
 					<p class="lead text-muted">
-						Ich bin Textildesignerin mit verschiedenen kulturellen Einflüssen. Da ich einen Teil meiner Kindheit in Kasachstan verbracht habe, ist der Filzteppich für mich kein allzu exotisches Produkt. Dort wird er traditionell in der Gruppe hergestellt und wegen seiner thermoregulierenden Eigenschaften anschließend als Wandbekleidung und Bodenbelag verwendet. Groß geworden bin ich jedoch in Deutschland und bin fest davon überzeugt, dass der Kontrast zwischen meinen beiden Herkunftsländern einen wesentlichen Vorteil für mein Schaffen  darstellt. 
-						2010 bin ich aus beruflichen Gründen nach Norditalien gezogen und kann nun ein drittes Land ein Stück weit meine Heimat nennen. Ich lebe und arbeite seitdem in Turin, wo  <span class="feltro-title">felt</span><span class="feltro-title-brackets">(</span><span class="feltro-title">ro</span><span class="feltro-title-brackets">)</span> geboren worden ist. Dieses wunderbare Produkt schafft es, meine Liebe zu natürlichen Rohstoffen mit der für traditionelle Herstellungsverfahren zu verbinden.</p>
+						<%= htmlWebpackPlugin.options.i18n.aboutMeLongP1 %>  <span class="feltro-title">felt</span><span class="feltro-title-brackets">(</span><span class="feltro-title">ro</span><span class="feltro-title-brackets">)</span> <%= htmlWebpackPlugin.options.i18n.aboutMeLongP2 %></p>
 				</div>
 			</div>
 
@@ -132,14 +125,14 @@
 			<footer class="text-muted bg-inverse">
 				<div class="container nopadding">
 					<p class="float-right">
-						<a class="text-white" href="#">Back to top</a>
+						<a class="text-white" href="#"><%= htmlWebpackPlugin.options.i18n.backToTop %></a>
 					</p>
 					<p>&copy; 2018 Christina Krämer</p>
 					<p>
 						<a href="mailto:christina.kraemer@felt-ro.com" class="text-feltro-title-color">christina.kraemer@felt-ro.com</a>
 					</p>
-					<p>The source code of this website is free software, available on
-						<a class="text-white" href="https://github.com/mariotrucco/feltro">GitHub</a> and licensed under the
+					<p><%= htmlWebpackPlugin.options.i18n.sourceCodeCopyright1 %>
+						<a class="text-white" href="https://github.com/mariotrucco/feltro">GitHub</a> <%= htmlWebpackPlugin.options.i18n.sourceCodeCopyright2 %>
 						<a class="text-white" href="https://github.com/mariotrucco/feltro/blob/master/LICENSE">GNU General Public License v3.0</a>.</p>
 				</div>
 			</footer>
