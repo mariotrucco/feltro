@@ -107,64 +107,6 @@ footer p {
   cursor: pointer;
 }
 
-.dropdown-toggle{
-  margin-left: 2em;
-}
-
-.dropdown-toggle {
-  cursor: pointer;
-}
-
-
-.dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  z-index: 1000;
-  display: none; 
-  float: left; 
-  min-width: 1rem;
-  font-size: 1rem; 
-  color: $feltro-title-color; 
-  text-align: left;
-  list-style: none;
-  border: none;
-  background-color: $white-dirty;
-}
-
-.dropdown-item {
-  display: block;
-  width: 100%;
-  clear: both;
-  font-weight: normal;
-  color:$feltro-title-color; 
-  text-align: inherit;
-  white-space: nowrap;
-  background: none;
-  border: 0;
-  margin-left: 1.4em;
-}
-
-.dropdown-item:hover{
-  color:$feltro-title-color;
-  background-color:$white-dirty; 
-  width: 5em;
-}
-
-.dropdown-item:focus{
-  color:$feltro-title-color;
-  background-color:$white-dirty; 
-  width: 5em;
-}
-
-.first-item {
-  margin-top: -1.5em;
-}
-
-.second-item{
-  margin-top: -0.5em;
-}
-
 
 .navbar-toggler-icon{
   margin-left: -2em;
@@ -173,6 +115,54 @@ footer p {
 #langDropdown{
   color: $feltro-title-color;
 }
+
+#langDropdownMobile{
+  color: $feltro-title-color;
+}
+
+.langDropdownMobileContainer{
+  margin-top: -2.5rem !important;
+}
+
+.langDropdownMobileContainer .dropdown-menu {
+  background: transparent;
+}
+
+.langDropdownMobileContainer .dropdown-item {
+  display: block;
+  width: 100%;
+  clear: both;
+  font-weight: normal;
+  color:$feltro-title-color; 
+  text-align: inherit;
+  white-space: nowrap;
+  background: transparent;
+  border: 0;
+  margin-left: 1.4em;
+}
+
+@media all and (orientation:portrait) {
+  .langDropdownMobileContainer .dropdown-menu .first-item {
+    margin-top: -1.75em;
+  }
+}
+
+@media all and (orientation:landscape) {
+  .langDropdownMobileContainer .dropdown-menu .first-item {
+    margin-top: -2.75em;
+  }
+}
+
+@media screen and (min-width: 600px) and (orientation:portrait) {
+  .langDropdownMobileContainer .dropdown-menu .first-item {
+    margin-top: -2.75em;
+  }
+}
+
+.only_ipad_landscape{
+  display: none;
+}
+
 
 /*
 sidebar with fixed elements
@@ -196,6 +186,62 @@ sidebar with fixed elements
     height: 300px;
     transform: translateX(-10%);
   }
+
+  .dropdown-toggle{
+    margin-left: 2em;
+    cursor: pointer;
+  }
+  
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none; 
+    float: left; 
+    min-width: 1rem;
+    font-size: 1rem; 
+    color: $feltro-title-color; 
+    text-align: left;
+    list-style: none;
+    border: none;
+    background-color: $white-dirty;
+  }
+  
+  .dropdown-item {
+    display: block;
+    width: 100%;
+    clear: both;
+    font-weight: normal;
+    color:$feltro-title-color; 
+    text-align: inherit;
+    white-space: nowrap;
+    background: none;
+    border: 0;
+    margin-left: 1.4em;
+  }
+  
+  .dropdown-item:hover{
+    color:$feltro-title-color;
+    background-color:$white-dirty; 
+    width: 5em;
+  }
+  
+  .dropdown-item:focus{
+    color:$feltro-title-color;
+    background-color:$white-dirty; 
+    width: 5em;
+  }
+  
+  .first-item {
+    margin-top: -1.5em;
+  }
+  
+  .second-item{
+    margin-top: -0.5em;
+  }
+  
 }
 
 @media screen and (max-width: 1600px) {
@@ -216,12 +262,149 @@ sidebar with fixed elements
     height: 300px;
   }
 
+  .dropdown-toggle{
+    margin-left: 2em;
+    cursor: pointer;
+  }
+  
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none; 
+    float: left; 
+    min-width: 1rem;
+    font-size: 1rem; 
+    color: $feltro-title-color; 
+    text-align: left;
+    list-style: none;
+    border: none;
+    background-color: $white-dirty;
+  }
+  
+  .dropdown-item {
+    display: block;
+    width: 100%;
+    clear: both;
+    font-weight: normal;
+    color:$feltro-title-color; 
+    text-align: inherit;
+    white-space: nowrap;
+    background: none;
+    border: 0;
+    margin-left: 0.75em;
+  }
+  
+  .dropdown-item:hover{
+    color:$feltro-title-color;
+    background-color:$white-dirty; 
+    width: 5em;
+  }
+  
+  .dropdown-item:focus{
+    color:$feltro-title-color;
+    background-color:$white-dirty; 
+    width: 5em;
+  }
+  
+  .first-item {
+    margin-top: -1.5em;
+  }
+  
+  .second-item{
+    margin-top: -0.5em;
+  }
+
+  #langDropdown{
+    margin-top: -0.6rem !important;
+  }
+}
+
+@media screen and (max-width: 1024px) and (orientation:landscape) {
+  .hidden_ipad_landscape{
+    display: none;
+  }
+  .only_ipad_landscape{
+    display: block;
+  }
+
+  .only_ipad_landscape .custom-toggler .navbar-toggler-icon {
+    margin-left: 0em;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(139, 141, 142, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    /*fixed top relative left see https://stackoverflow.com/a/6794097/2754507/. Commented out: only vertical logo needs that
+    position: fixed;
+    transform: translateX(-50%);
+    */
+  }
+
+  .verticalLogo{
+     /*fixed top relative left see https://stackoverflow.com/a/6794097/2754507/*/
+    position: fixed;
+    bottom: 20px;
+    left: 1.6rem;
+    height: 300px;
+  }
+
+  .only_ipad_landscape  .dropdown-toggle{
+    margin-left: 0em;
+    cursor: pointer;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none; 
+    float: left; 
+    min-width: 1rem;
+    font-size: 1rem; 
+    color: $feltro-title-color; 
+    text-align: left;
+    list-style: none;
+    border: none;
+    background-color: $white-dirty;
+  }
+  
+  .dropdown-item {
+    display: block;
+    width: 100%;
+    clear: both;
+    font-weight: normal;
+    color:$feltro-title-color; 
+    text-align: inherit;
+    white-space: nowrap;
+    background: none;
+    border: 0;
+    margin-left: 1em;
+  }
+  
+  .dropdown-item:hover{
+    color:$feltro-title-color;
+    background-color:$white-dirty; 
+    width: 5em;
+  }
+  
+  .dropdown-item:focus{
+    color:$feltro-title-color;
+    background-color:$white-dirty; 
+    width: 5em;
+  }
+  
+  .first-item {
+    margin-top: -1.5em;
+  }
+  
+  .second-item{
+    margin-top: -0.5em;
+  }
+
   #langDropdown{
     margin-top: -0.6rem !important;
   }
 
-  .dropdown-item {
-    margin-left: 0.75em;
-  }
+
 }
 
