@@ -107,6 +107,73 @@ footer p {
   cursor: pointer;
 }
 
+.dropdown-toggle{
+  margin-left: 2em;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+}
+
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1000;
+  display: none; 
+  float: left; 
+  min-width: 1rem;
+  font-size: 1rem; 
+  color: $feltro-title-color; 
+  text-align: left;
+  list-style: none;
+  border: none;
+  background-color: $white-dirty;
+}
+
+.dropdown-item {
+  display: block;
+  width: 100%;
+  clear: both;
+  font-weight: normal;
+  color:$feltro-title-color; 
+  text-align: inherit;
+  white-space: nowrap;
+  background: none;
+  border: 0;
+  margin-left: 1.4em;
+}
+
+.dropdown-item:hover{
+  color:$feltro-title-color;
+  background-color:$white-dirty; 
+  width: 5em;
+}
+
+.dropdown-item:focus{
+  color:$feltro-title-color;
+  background-color:$white-dirty; 
+  width: 5em;
+}
+
+.first-item {
+  margin-top: -1.5em;
+}
+
+.second-item{
+  margin-top: -0.5em;
+}
+
+
+.navbar-toggler-icon{
+  margin-left: -2em;
+}
+
+#langDropdown{
+  color: $feltro-title-color;
+}
+
 /*
 sidebar with fixed elements
 */
@@ -147,6 +214,14 @@ sidebar with fixed elements
     bottom: 20px;
     left: 1.6rem;
     height: 300px;
+  }
+
+  #langDropdown{
+    margin-top: -0.6rem !important;
+  }
+
+  .dropdown-item {
+    margin-left: 0.75em;
   }
 }
 

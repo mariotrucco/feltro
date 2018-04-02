@@ -62,9 +62,24 @@
 		<div class="hidden-md-down col-lg-1 bg-sidebar px-0" id="sidebar">
 			
 			<div class="text-center">
-				<div class="custom-toggler mt-1 px-0" style="cursor: pointer;" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader"
-					aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
+				<div class="row mt-1 px-0">
+					<div class="col-6 m-0 px-0">
+						<ul class="nav navbar-nav navbar-right mt-1">
+							<li class="nav-item">
+								<a class="dropdown-toggle nav-link" type="button" id="langDropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><%= htmlWebpackPlugin.options.i18n.dropdownThisLang.code %></a>
+								<div class="dropdown-menu" aria-labelledby="langDropdown">
+									<a class="dropdown-item first-item" href="<%= htmlWebpackPlugin.options.i18n.dropdownOtherLang1.link %>"><%= htmlWebpackPlugin.options.i18n.dropdownOtherLang1.code %></a>
+									<!--<a class="dropdown-item second-item" href="<%= htmlWebpackPlugin.options.i18n.dropdownOtherLang2.link %>"><%= htmlWebpackPlugin.options.i18n.dropdownOtherLang2.code %></a>-->															
+								</div>
+							</li>						
+						</ul>
+					</div>
+					<div class="col-6 m-0 px-0">
+							<div class="custom-toggler" style="cursor: pointer;" type="button" data-toggle="collapse" data-target="#navbarHeader" aria-controls="navbarHeader"
+								aria-expanded="false" aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</div>
+					</div>
 				</div>
 			</div>
 			<div class="text-center">
