@@ -83,6 +83,43 @@ var galleries = {
             w: 1200,
             h: 1600
         }
+    ],
+    rost : [
+        {
+            src: 'img/gallery/Rost.jpg',
+            w: 1600,
+            h: 1200
+        },
+        {
+            src: 'img/carousel/RostDistanza.jpg',
+            w: 1200,
+            h: 1600
+        },
+        {
+            src: 'img/carousel/RostDetail.jpg',
+            w: 1200,
+            h: 1600
+        },
+        {
+            src: 'img/carousel/RostDetail2.jpg',
+            w: 1200,
+            h: 1200
+        },
+        {
+            src: 'img/carousel/RostDetail3.jpg',
+            w: 1200,
+            h: 1600
+        },
+        {
+            src: 'img/carousel/RostDetail4.jpg',
+            w: 1600,
+            h: 1200
+        },
+        {
+            src: 'img/carousel/RostDetail5.jpg',
+            w: 1200,
+            h: 1200
+        }
     ]
 }
 
