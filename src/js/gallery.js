@@ -3,7 +3,7 @@ import PhotoSwipeUI_Default from 'photoswipe/dist/photoswipe-ui-default.min.js';
 var galleries = {
     dueXdue: [
         {
-            src: 'img/gallery/dueXdueDistanza.jpg',
+            src: 'img/gallery/dueXdueDistanza1.jpg',
             w: 1200,
             h: 1200
         },
