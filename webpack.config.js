@@ -4,7 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
 
 const extractSass = new ExtractTextPlugin({
-    filename: "[name].css"
+    filename: "[name].[chunkhash].css"
 });
 
 const i18n_de = require('./src/i18n/de.json');
@@ -13,7 +13,7 @@ const i18n_it = require('./src/i18n/it.json');
 module.exports = {
   entry: ['./src/index.js','./src/scss/main.scss'],
   output: {
-    filename: 'bundle.js',
+    filename: 'bundle.[chunkhash].js',
     path: path.resolve(__dirname, 'dist')
   },
   module: {
