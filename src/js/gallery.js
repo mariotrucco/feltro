@@ -1,6 +1,23 @@
 import PhotoSwipe from 'photoswipe/dist/photoswipe.min.js';
 import PhotoSwipeUI_Default from 'photoswipe/dist/photoswipe-ui-default.min.js';
 var galleries = {
+    dueXdue: [
+        {
+            src: 'img/gallery/dueXdue.jpg',
+            w: 1600,
+            h: 1200
+        },
+        {
+            src: 'img/carousel/dueXdueDistanza.jpg',
+            w: 1200,
+            h: 1200
+        },
+        {
+            src: 'img/carousel/dueXdueDetail.jpg',
+            w: 1200,
+            h: 1600
+        }
+    ],
     pois : [
         {
             src: 'img/gallery/Pois2_opt.jpg',
