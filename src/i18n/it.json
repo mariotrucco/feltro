@@ -3,12 +3,12 @@
                                 "code": "IT"
                               },
     "dropdownOtherLang1"    : {
-                                "code": "DE",
-                                "link": "index.html"
-                              },
-    "dropdownOtherLang2"    : {
                                 "code": "EN",
                                 "link": "index_en.html"
+                              },
+    "dropdownOtherLang2"    : {
+                                "code": "DE",
+                                "link": "index.html"
                               },                               
     "ogDescription"         : "felt(ro), tappeti di lana fatti a mano by Christina Krämer",
     "aboutMe"               : "Chi Sono",

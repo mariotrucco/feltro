@@ -1,0 +1,30 @@
+{
+    "dropdownThisLang"      : {
+                                "code": "EN"
+                              },
+    "dropdownOtherLang1"    : {
+                                "code": "DE",
+                                "link": "index.html"
+                              },
+    "dropdownOtherLang2"    : {
+                                "code": "IT",
+                                "link": "index_it.html"
+                              },                               
+    "ogDescription"         : "felt(ro), handcrafted felt rugs by Christina Krämer",
+    "aboutMe"               : "About Me",
+    "emailMe"               : "Contact Me",
+    "aboutMeShort"          : "I am a textile designer with a diverse cultural background. Since I spent part of my childhood in Kazakhstan,",
+    "more"                  : "... (read more)",
+    "aboutMeLongP1"         : "I am a textile designer with a diverse cultural background. Since I spent part of my childhood in Kazakhstan, felt rugs are not too exotic products for me. There, they are traditionally made in group and then used as wall covering and flooring because of their thermo-regulating properties. However, I grew up in Germany and am convinced that the contrast between my two countries of origin represents a significant advantage for my work. In 2010, I moved to northern Italy for professional reasons and can now call a third country home in a way. In Turin",
+    "aboutMeLongP2"         : " was born . This wonderful product manages to combine my love for natural raw materials with traditional manufacturing techniques and to drive my experimental urge. Since 2018 I live and work again in Germany, in Hamburg to be exact.",
+    "generalDescription"    : "are handmade felt rugs. My carpets are the result of a lengthy, traditional process and consist mainly of virgin wool. Therefore  they present all the advantages that this renewable resource offers. They create a natural and healthy indoor climate by regulating humidity in the room, isolating from cold and heat, having also excellent sound absorbing properties and low dirt adhesion. Furthermore, wool carpets are very elastic and stable and therefore particularly resilient. As such, a felt carpet is a high quality and durable natural product that enriches every space. Another advantage of felt carpets is that they can be freely shaped because they are  not constrained to a thread system nor to a machine size and therefore do not need to be rectangular or edgewise. They can be easily adapted to any space and individual taste and are unique by nature!",
+    "dueXdueDesc"           : "Gotland, Neuseeland, Bergschaf, Tussah-Seide, Mohair",
+    "polkaDottedSheepDesc"  : "Pommersches Landschaf, Bergschaf, Neuseeland, Gotland",
+    "polkaDotKissenDesc"    : "Pommersches Landschaf, Steinschaf, Neuseeland, Gotland",
+    "partingDesc"           : "Norsk Spelsau, Steinschaf, Neuseeland, Gotland",
+    "rostDesc"              : "Austral, Neuseeland, Steinschaf, Süddeutsche Mischung, Bergschaf",
+    "backToTop"             : "Back to top",
+    "sourceCodeCopyright1"  : "The source code of this website is free software, available on",
+    "sourceCodeCopyright2"  : "and licensed under the",
+    "openGallery"           : "OPEN GALLERY"
+}

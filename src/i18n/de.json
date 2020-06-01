@@ -3,12 +3,12 @@
                                 "code": "DE"
                               },
     "dropdownOtherLang1"    : {
-                                "code": "IT",
-                                "link": "index_it.html"
-                              },
-    "dropdownOtherLang2"    : {
                                 "code": "EN",
                                 "link": "index_en.html"
+                              },
+    "dropdownOtherLang2"    : {
+                                "code": "IT",
+                                "link": "index_it.html"
                               },                              
     "ogDescription"         : "felt(ro), handgefertigte Filzteppiche by Christina Krämer",
     "aboutMe"               : "About Me",

@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 const i18n_de = require('./src/i18n/de.json');
+const i18n_en = require('./src/i18n/en.json');
 const i18n_it = require('./src/i18n/it.json');
 
 module.exports = {
@@ -18,6 +19,13 @@ module.exports = {
         lang: 'de',
         locale: 'de_DE',
         i18n: i18n_de
+      }),
+      new HtmlWebpackPlugin({
+        filename: 'index_en.html',
+        template: 'index.html',
+        lang: 'en',
+        locale: 'en_US',
+        i18n: i18n_en
       }),
       new HtmlWebpackPlugin({
         filename: 'index_it.html',
