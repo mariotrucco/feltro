@@ -134,7 +134,10 @@ var galleries = {
         var options = {
             // optionName: 'option value'
             // for example:
-            index: 0 // start at first slide
+            index: 0, // start at first slide
+            closeOnScroll: false,
+            closeOnVerticalDrag: false
+
         };
     
         // Initializes and opens PhotoSwipe
