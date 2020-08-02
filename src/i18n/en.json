@@ -18,13 +18,15 @@
     "aboutMeLongP1"         : "I am a textile designer with a diverse cultural background. Since I spent part of my childhood in Kazakhstan, felt rugs are not too exotic products for me. There, they are traditionally made in group and then used as wall covering and flooring because of their thermo-regulating properties. However, I grew up in Germany and am convinced that the contrast between my two countries of origin represents a significant advantage for my work. In 2010, I moved to northern Italy for professional reasons and can now call a third country home in a way. In Turin",
     "aboutMeLongP2"         : " was born . This wonderful product manages to combine my love for natural raw materials with traditional manufacturing techniques and to drive my experimental urge. Since 2018 I live and work again in Germany, in Hamburg to be exact.",
     "generalDescription"    : "are handmade felt rugs. My carpets are the result of a lengthy, traditional process and consist mainly of virgin wool. Therefore  they present all the advantages that this renewable resource offers. They create a natural and healthy indoor climate by regulating humidity in the room, isolating from cold and heat, having also excellent sound absorbing properties and low dirt adhesion. Furthermore, wool carpets are very elastic and stable and therefore particularly resilient. As such, a felt carpet is a high quality and durable natural product that enriches every space. Another advantage of felt carpets is that they can be freely shaped because they are  not constrained to a thread system nor to a machine size and therefore do not need to be rectangular or edgewise. They can be easily adapted to any space and individual taste and are unique by nature!",
-    "dueXdueDesc"           : "Gotland, Neuseeland, Bergschaf, Tussah-Seide, Mohair",
-    "polkaDottedSheepDesc"  : "Pommersches Landschaf, Bergschaf, Neuseeland, Gotland",
-    "polkaDotKissenDesc"    : "Pommersches Landschaf, Steinschaf, Neuseeland, Gotland",
-    "partingDesc"           : "Norsk Spelsau, Steinschaf, Neuseeland, Gotland",
-    "rostDesc"              : "Austral, Neuseeland, Steinschaf, Süddeutsche Mischung, Bergschaf",
+    "dueXdueDesc"           : "210 X 210 X 1 cm. Gotland, Neuseeland, Bergschaf, Tussah-Seide, Mohair",
+    "polkaDottedSheepDesc"  : "159 X 59 X 3 cm. Pommersches Landschaf, Bergschaf, Neuseeland, Gotland",
+    "polkaDotKissenDesc"    : "68 X 68 X 3 cm. Pommersches Landschaf, Steinschaf, Neuseeland, Gotland",
+    "partingDesc"           : "140 X 95 X 4 cm. Norsk Spelsau, Steinschaf, Neuseeland, Gotland",
+    "rostDesc"              : "130 X 130 X 1 cm. Austral, Neuseeland, Steinschaf, Süddeutsche Mischung, Bergschaf",
+    "poppyDesc"             : "173 X 169 X 8 cm",
     "backToTop"             : "Back to top",
     "sourceCodeCopyright1"  : "The source code of this website is free software, available on",
     "sourceCodeCopyright2"  : "and licensed under the",
-    "openGallery"           : "OPEN GALLERY"
+    "openGallery"           : "OPEN GALLERY",
+    "makingOf"              : "MAKING OF"
 }

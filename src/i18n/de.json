@@ -18,13 +18,15 @@
     "aboutMeLongP1"         : "Ich bin Textildesignerin mit verschiedenen kulturellen Einflüssen. Da ich einen Teil meiner Kindheit in Kasachstan verbracht habe, ist der Filzteppich für mich kein allzu exotisches Produkt. Dort wird er traditionell in der Gruppe hergestellt und wegen seiner thermoregulierenden Eigenschaften anschließend als Wandbekleidung und Bodenbelag verwendet. Groß geworden bin ich jedoch in Deutschland und bin fest davon überzeugt, dass der Kontrast zwischen meinen beiden Herkunftsländern einen wesentlichen Vorteil für mein Schaffen  darstellt. 2010 bin ich aus beruflichen Gründen nach Norditalien gezogen und kann nun ein drittes Land ein Stück weit meine Heimat nennen. In Turin ist",
     "aboutMeLongP2"         : " geboren worden. Dieses wunderbare Produkt schafft es, sowohl meine Liebe zu natürlichen Rohstoffen mit der für traditionelle Herstellungsverfahren zu verbinden als auch meinem experimentellen Drang alle Türen zu öffnen. Seit 2018 lebe und arbeite ich wieder in Deutschland, in Hamburg, um genau zu sein.",
     "generalDescription"    : "sind handgefertigte Filzteppiche. Meine Teppiche sind das Resultat eines langwierigen, traditionellen Verfahrens und bestehen hauptsächlich aus Schurwolle. Sie verfügen daher über alle Vorteile, die dieser nachwachsende Rohstoff bietet. Sie schaffen ein natürliches und gesundes Raumklima, indem sie die Luftfeuchtigkeit im Raum regulieren, gegen Kälte und Wärme isolieren, über hervorragende schalldämmende Eigenschaften verfügen und eine geringe Schmutzhaftung aufweisen. Außerdem sind Wollteppiche sehr elastisch und stabil und daher besonders belastbar. Ein Filzteppich ist also ein hochwertiges und langlebiges Naturprodukt, das jeden Raum bereichert. Ein weiterer Vorteil von Filzteppichen ist, dass sie frei in der Form gestaltbar sind, da sie keinem Fadensystem und keiner Maschinengröße unterworfen sind und daher nicht  rechteckig oder gradkantig sein müssen. Sie können spielend dem individuellen Raum und Geschmack angepasst werden und sind daher von Haus aus Unikate!",
-    "dueXdueDesc"           : "Gotland, Neuseeland, Bergschaf, Tussah-Seide, Mohair",
-    "polkaDottedSheepDesc"  : "Pommersches Landschaf, Bergschaf, Neuseeland, Gotland",
-    "polkaDotKissenDesc"    : "Pommersches Landschaf, Steinschaf, Neuseeland, Gotland",
-    "partingDesc"           : "Norsk Spelsau, Steinschaf, Neuseeland, Gotland",
-    "rostDesc"              : "Austral, Neuseeland, Steinschaf, Süddeutsche Mischung, Bergschaf",
+    "dueXdueDesc"           : "210 X 210 X 1 cm. Gotland, Neuseeland, Bergschaf, Tussah-Seide, Mohair",
+    "polkaDottedSheepDesc"  : "159 X 59 X 3 cm. Pommersches Landschaf, Bergschaf, Neuseeland, Gotland",
+    "polkaDotKissenDesc"    : "68 X 68 X 3 cm. Pommersches Landschaf, Steinschaf, Neuseeland, Gotland",
+    "partingDesc"           : "140 X 95 X 4 cm. Norsk Spelsau, Steinschaf, Neuseeland, Gotland",
+    "rostDesc"              : "130 X 130 X 1 cm. Austral, Neuseeland, Steinschaf, Süddeutsche Mischung, Bergschaf",
+    "poppyDesc"             : "173 X 169 X 8 cm",
     "backToTop"             : "Back to top",
     "sourceCodeCopyright1"  : "The source code of this website is free software, available on",
     "sourceCodeCopyright2"  : "and licensed under the",
-    "openGallery"           : "GALERIE ÖFFNEN"
+    "openGallery"           : "GALERIE ÖFFNEN",
+    "makingOf"              : "MAKING OF"
 }

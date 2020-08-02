@@ -160,6 +160,11 @@
 			<div class="album text-muted">
 				<div class="container">
 					<div id="imgCarousel" class="row">
+						<div id="poppy" class="card" onclick="document.location.href='poppy-making-of_<%= htmlWebpackPlugin.options.lang %>.html'">								
+							<img class="img-fluid" src="img/gallery/poppy.jpg" alt="POPPY">
+							<h6>POPPY &nbsp;&nbsp;<a href="poppy-making-of_<%= htmlWebpackPlugin.options.lang %>.html"><%= htmlWebpackPlugin.options.i18n.makingOf %></a></h6>
+							<p><%= htmlWebpackPlugin.options.i18n.poppyDesc %></p>						
+						</div>
 						<div id="rost" class="card" onclick="openGallery('rost')">
 							<img class="img-fluid" src="img/gallery/Rost.jpg" alt="ROST">
 							<h6>ROST &nbsp;&nbsp;<a href="#" onclick="return false;"><%= htmlWebpackPlugin.options.i18n.openGallery %></a></h6>
@@ -184,7 +189,7 @@
 							<img class="img-fluid" src="img/gallery/Scheitel_opt.jpg" alt="PARTING">
 							<h6>PARTING &nbsp;&nbsp;<a href="#" onclick="return false;"><%= htmlWebpackPlugin.options.i18n.openGallery %></a></h6>
 							<p><%= htmlWebpackPlugin.options.i18n.partingDesc %></p>
-						</div>
+						</div>													
 					</div>
 
 				</div>
