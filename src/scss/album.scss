@@ -45,15 +45,35 @@ button, html [type="button"], [type="reset"], [type="submit"]{
   text-align: justify;
 }
 
+@mixin paddings($top, $bottom) {
+  padding-top: $top;
+  padding-bottom: $bottom;
+}
+
+@mixin margins($bottom) {
+  margin-bottom: $bottom;
+}
+
 .album {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  @include paddings(3em, 3em);
   background-color: $brand-inverse;
 }
 
-.card {
+.making-of-album {
+  @include paddings(0, 0);
+  background-color: $brand-inverse;
+}
+
+.making-of-card {
+  @include margins(0);
   float: left;
-  margin-bottom: 2rem;
+  background-color:$white-dirty;
+  border: 0;
+}
+
+.card {
+  @include margins(2rem);
+  float: left;
   background-color:$white-dirty;
   border: 0;
 }
@@ -68,6 +88,10 @@ button, html [type="button"], [type="reset"], [type="submit"]{
   font-size: 85%;
   padding-left: .75rem;
   color: $feltro-title-color;
+}
+
+#poppy{
+  background-color: $brand-primary;
 }
 
 footer {

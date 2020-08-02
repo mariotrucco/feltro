@@ -34,6 +34,27 @@ module.exports = {
         locale: 'it_IT',
         i18n: i18n_it
       }),
+      new HtmlWebpackPlugin({
+        filename: 'poppy-making-of_de.html',
+        template: 'poppy-making-of.html',    
+        lang: 'de',
+        locale: 'de_DE',
+        i18n: i18n_de
+      }),
+      new HtmlWebpackPlugin({
+        filename: 'poppy-making-of_en.html',
+        template: 'poppy-making-of.html',
+        lang: 'en',
+        locale: 'en_US',
+        i18n: i18n_en
+      }),
+      new HtmlWebpackPlugin({
+        filename: 'poppy-making-of_it.html',
+        template: 'poppy-making-of.html',
+        lang: 'it',
+        locale: 'it_IT',
+        i18n: i18n_it
+      }),
       new webpack.ProvidePlugin({
         Popper: ['popper.js', 'default'],
       }),
