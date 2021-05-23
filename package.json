@@ -28,7 +28,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
     "build-prod": "webpack -p",
-    "start:dev": "webpack-dev-server --inline --port 8080 --host 192.168.0.11 --content-base ."
+    "start:dev": "webpack-dev-server --inline --port 8080 --host 127.0.0.1 --content-base ."
   },
   "keywords": [],
   "author": "Mario Trucco",
