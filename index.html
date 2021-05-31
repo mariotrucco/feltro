@@ -37,6 +37,9 @@
 							<li>
 								<a href="mailto:christina.kraemer@felt-ro.com" class="text-feltro-title-color">christina.kraemer@felt-ro.com</a>
 							</li>
+							<li>
+								<a href="https://www.felt-ro.de" class="text-feltro-title-color">www.felt-ro.de</a>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -166,37 +169,42 @@
 			<div class="album text-muted">
 				<div class="container">
 					<div id="imgCarousel" class="row">
-						<div id="poppy" class="card" onclick="document.location.href='poppy-making-of_<%= htmlWebpackPlugin.options.lang %>.html'">								
-							<img class="img-fluid" src="img/gallery/poppy.jpg" alt="POPPY">
-							<h6>CUT POPPY &nbsp;&nbsp;<a href="poppy-making-of_<%= htmlWebpackPlugin.options.lang %>.html"><%= htmlWebpackPlugin.options.i18n.makingOf %></a></h6>
+						<div id="homunkulus" class="card" onclick="openGallery('homunkulus')">
+							<img class="img-fluid" src="img/gallery/homunkulus_dunkel_1200.jpg" alt="HOMUNKULUS">
+							<h6>HOMUNKULUS &nbsp;&nbsp;<a href="#" onclick="return false;"><%= htmlWebpackPlugin.options.i18n.openGallery %></a></h6>
+							<p><%= htmlWebpackPlugin.options.i18n.homunkulusDesc %></p>
+							<p class="albumText"><%= htmlWebpackPlugin.options.i18n.homunkulusText %></p>
+						</div>
+						<div id="poppy" class="card" onclick="openGallery('poppy')">								
+							<img class="img-fluid" src="img/gallery/cut_poppy_dunkel_1200.jpg" alt="CUT POPPY">
+							<h6>CUT POPPY &nbsp;&nbsp;<a href="#" onclick="return false;"><%= htmlWebpackPlugin.options.i18n.openGallery %></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="poppy-making-of_<%= htmlWebpackPlugin.options.lang %>.html"><%= htmlWebpackPlugin.options.i18n.makingOf %></a></h6>
 							<p><%= htmlWebpackPlugin.options.i18n.poppyDesc %></p>
-							<p><%= htmlWebpackPlugin.options.i18n.poppyText %></p>												
+							<p class="albumText"><%= htmlWebpackPlugin.options.i18n.poppyText %></p>												
 						</div>
-						<div id="rost" class="card" onclick="openGallery('rost')">
-							<img class="img-fluid" src="img/gallery/Rost.jpg" alt="ROST">
-							<h6>ROST &nbsp;&nbsp;<a href="#" onclick="return false;"><%= htmlWebpackPlugin.options.i18n.openGallery %></a></h6>
-							<p><%= htmlWebpackPlugin.options.i18n.rostDesc %></p>
+						<div id="lashed" class="card dark" onclick="openGallery('lashed')">
+							<img class="img-fluid" src="img/gallery/lashed_1200.jpg" alt="LASHED">
+							<h6>LASHED &nbsp;&nbsp;<a href="#" onclick="return false;"><%= htmlWebpackPlugin.options.i18n.openGallery %></a></h6>
+							<p><%= htmlWebpackPlugin.options.i18n.lashedDesc %></p>
+							<p class="albumText"><%= htmlWebpackPlugin.options.i18n.lashedText %></p>
 						</div>
-						<div id="dueXdue" class="card" onclick="openGallery('dueXdue')">
-							<img class="img-fluid" src="img/gallery/dueXdueDistanza1.jpg" alt="DUE X DUE">
-							<h6>DUE X DUE &nbsp;&nbsp;<a href="#" onclick="return false;"><%= htmlWebpackPlugin.options.i18n.openGallery %></a></h6>
-							<p><%= htmlWebpackPlugin.options.i18n.dueXdueDesc %></p>
-						</div>						
-						<div id="pois" class="card" onclick="openGallery('pois')">
-							<img class="img-fluid" src="img/gallery/Pois2_opt.jpg" alt="POLKA-DOTTED SHEEP">
-							<h6>POLKA-DOTTED SHEEP &nbsp;&nbsp;<a href="#" onclick="return false;"><%= htmlWebpackPlugin.options.i18n.openGallery %></a></h6>
-							<p><%= htmlWebpackPlugin.options.i18n.polkaDottedSheepDesc %></p>
-						</div>
-						<div id="kissen" class="card" onclick="openGallery('kissen')">
-							<img class="img-fluid" src="img/gallery/KissenFell_opt.jpg" alt="POLKA DOT KISSEN">
-							<h6>POLKA DOT KISSEN &nbsp;&nbsp;<a href="#" onclick="return false;"><%= htmlWebpackPlugin.options.i18n.openGallery %></a></h6>
-							<p><%= htmlWebpackPlugin.options.i18n.polkaDotKissenDesc %></p>
+						<div id="island-network" class="card dark" onclick="openGallery('islandNetwork')">
+							<img class="img-fluid" src="img/gallery/island_network_1200.jpg" alt="ISLAND NETWORK">
+							<h6>MY LITTLE ISLAND - NETWORK &nbsp;&nbsp;<a href="#" onclick="return false;"><%= htmlWebpackPlugin.options.i18n.openGallery %></a></h6>
+							<p><%= htmlWebpackPlugin.options.i18n.islandNetworkDesc %></p>
+							<p class="albumText"><%= htmlWebpackPlugin.options.i18n.islandNetworkText %></p>
 						</div>
 						<div id="scheitel" class="card" onclick="openGallery('scheitel')">
-							<img class="img-fluid" src="img/gallery/Scheitel_opt.jpg" alt="PARTING">
+							<img class="img-fluid" src="img/gallery/Scheitel.jpg" alt="PARTING">
 							<h6>PARTING &nbsp;&nbsp;<a href="#" onclick="return false;"><%= htmlWebpackPlugin.options.i18n.openGallery %></a></h6>
 							<p><%= htmlWebpackPlugin.options.i18n.partingDesc %></p>
-						</div>													
+							<p class="albumText"><%= htmlWebpackPlugin.options.i18n.partingText %></p>
+						</div>
+						<div id="dueXdue" class="card" onclick="openGallery('dueXdue')">
+							<img class="img-fluid" src="img/gallery/dueXdueDistanza.JPG" alt="DUE X DUE">
+							<h6>DUE X DUE &nbsp;&nbsp;<a href="#" onclick="return false;"><%= htmlWebpackPlugin.options.i18n.openGallery %></a></h6>
+							<p><%= htmlWebpackPlugin.options.i18n.dueXdueDesc %></p>
+							<p class="albumText"><%= htmlWebpackPlugin.options.i18n.dueXdueText %></p>
+						</div>												
 					</div>
 
 				</div>
@@ -206,6 +214,8 @@
 				<div class="container nopadding">
 					<p class="lead text-muted">
 						<%= htmlWebpackPlugin.options.i18n.aboutMeLongP1 %>  <span class="feltro-title">felt</span><span class="feltro-title-brackets">(</span><span class="feltro-title">ro</span><span class="feltro-title-brackets">)</span><%= htmlWebpackPlugin.options.i18n.aboutMeLongP2 %></p>
+					<p class="lead text-muted"><%= htmlWebpackPlugin.options.i18n.aboutMeLongP3 %></p>
+					<p class="lead text-muted"><%= htmlWebpackPlugin.options.i18n.aboutMeLongP4 %></p>
 				</div>
 			</div>
 
@@ -215,7 +225,7 @@
 					<p class="float-right">
 						<a class="text-white" href="#"><%= htmlWebpackPlugin.options.i18n.backToTop %></a>
 					</p>
-					<p>&copy; 2020 Christina Krämer</p>
+					<p>&copy; 2021 Christina Krämer</p>
 					<p>
 						<a href="mailto:christina.kraemer@felt-ro.com" class="text-feltro-title-color">christina.kraemer@felt-ro.com</a>
 					</p>

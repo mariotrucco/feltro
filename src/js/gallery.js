@@ -1,70 +1,97 @@
 import PhotoSwipe from 'photoswipe/dist/photoswipe.min.js';
 import PhotoSwipeUI_Default from 'photoswipe/dist/photoswipe-ui-default.min.js';
 var galleries = {
-    dueXdue: [
+    homunkulus: [
         {
-            src: 'img/gallery/dueXdueDistanza1.jpg',
+            src: 'img/gallery/homunkulus_dunkel_1200.jpg',
             w: 1200,
             h: 1200
         },
         {
-            src: 'img/carousel/dueXdue.jpg',
+            src: 'img/carousel/homunkulus_hell_1200.jpg',
             w: 1200,
-            h: 1600
+            h: 1200
         },
         {
-            src: 'img/carousel/dueXdueDetail.jpg',
+            src: 'img/carousel/homunkulus_hell_detail_1200.jpg',
             w: 1200,
-            h: 1600
+            h: 1200
+        },
+        {
+            src: 'img/carousel/homunkulus_hell_macro_1200.jpg',
+            w: 1200,
+            h: 1200
         }
     ],
-    pois : [
+    poppy: [
         {
-            src: 'img/gallery/Pois2_opt.jpg',
-            w: 1600,
+            src: 'img/gallery/cut_poppy_dunkel_1200.jpg',
+            w: 1200,
             h: 1200
         },
         {
-            src: 'img/carousel/Pois3.jpg',
-            w: 1600,
+            src: 'img/carousel/cut_poppy_detail1_1200.jpg',
+            w: 1200,
             h: 1200
         },
         {
-            src: 'img/carousel/PoisDetail.jpg',
+            src: 'img/carousel/cut_poppy_detail2_1200.jpg',
             w: 1200,
-            h: 1600
+            h: 1200
         },
         {
-            src: 'img/carousel/PoisDetail2.jpg',
+            src: 'img/carousel/cut_poppy_detail_1200.jpg',
             w: 1200,
-            h: 1600
+            h: 1200
         }
     ],
-    kissen : [
+    lashed: [
         {
-            src: 'img/gallery/KissenFell_opt.jpg',
-            w: 1600,
-            h: 1200
-        },
-        {
-            src: 'img/carousel/KissenFellDetail.jpg',
+            src: 'img/gallery/lashed_1200.jpg',
             w: 1200,
             h: 1200
         },
         {
-            src: 'img/carousel/KissenFellDistanzaufnahme.jpg',
-            w: 1600,
+            src: 'img/carousel/lashed_front.jpg',
+            w: 1200,
             h: 1200
         },
         {
-            src: 'img/carousel/KissenFellDistanzaufnahme2.jpg',
-            w: 1600,
+            src: 'img/carousel/lashed_detail.jpg',
+            w: 1200,
+            h: 1200
+        },
+        {
+            src: 'img/carousel/lashed_making.jpg',
+            w: 1200,
+            h: 1200
+        }
+    ],
+    islandNetwork: [
+        {
+            src: 'img/gallery/island_network_1200.jpg',
+            w: 1200,
+            h: 1200
+        },
+        {
+            src: 'img/carousel/island_network_Detail_1.jpg',
+            w: 1200,
+            h: 1200
+        },
+        {
+            src: 'img/carousel/island_network_Detail_4.jpg',
+            w: 1200,
+            h: 1200
+        },
+        {
+            src: 'img/carousel/island_network_Detail_3.jpg',
+            w: 1200,
             h: 1200
         }
     ],
     scheitel : [
         {
-            src: 'img/gallery/Scheitel_opt.jpg',
+            src: 'img/gallery/Scheitel.jpg',
             w: 1600,
             h: 1200
         },
@@ -84,41 +111,26 @@ var galleries = {
             h: 1600
         }
     ],
-    rost : [
+    dueXdue: [
         {
-            src: 'img/gallery/Rost.jpg',
-            w: 1600,
+            src: 'img/gallery/dueXdueDistanza.JPG',
+            w: 1200,
             h: 1200
         },
         {
-            src: 'img/carousel/RostDistanza.jpg',
+            src: 'img/carousel/dueXdue.jpg',
             w: 1200,
             h: 1600
         },
         {
-            src: 'img/carousel/RostDetail.jpg',
+            src: 'img/carousel/duexdue_bearb.jpg',
+            w: 1200,
+            h: 1200
+        },
+        {
+            src: 'img/carousel/dueXdueDetail.jpg',
             w: 1200,
             h: 1600
-        },
-        {
-            src: 'img/carousel/RostDetail2.jpg',
-            w: 1200,
-            h: 1200
-        },
-        {
-            src: 'img/carousel/RostDetail3.jpg',
-            w: 1200,
-            h: 1600
-        },
-        {
-            src: 'img/carousel/RostDetail4.jpg',
-            w: 1600,
-            h: 1200
-        },
-        {
-            src: 'img/carousel/RostDetail5.jpg',
-            w: 1200,
-            h: 1200
         }
     ]
 }

@@ -82,6 +82,10 @@ button, html [type="button"], [type="reset"], [type="submit"]{
   padding-top: .75rem;
   padding-left: .75rem;
   color: $feltro-title-color;
+
+  .dark {
+    background-color: $brand-primary;
+  }
 }
 
 .card p{
@@ -90,8 +94,8 @@ button, html [type="button"], [type="reset"], [type="submit"]{
   color: $feltro-title-color;
 }
 
-#poppy{
-  background-color: $brand-primary;
+.dark {
+  background-color: black;
 }
 
 footer {
@@ -129,6 +133,13 @@ footer p {
 
 #imgCarousel .card{
   cursor: pointer;
+
+  .albumText {
+    font-size: 1.2rem;
+    font-weight: 300;
+    text-align: justify;
+    padding-right: .75rem;
+  }
 }
 
 
