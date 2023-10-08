@@ -3,12 +3,7 @@ import PhotoSwipeUI_Default from 'photoswipe/dist/photoswipe-ui-default.min.js';
 var galleries = {
     homunkulus: [
         {
-            src: 'img/gallery/homunkulus_dunkel_1200.jpg',
-            w: 1200,
-            h: 1200
-        },
-        {
-            src: 'img/carousel/homunkulus_hell_1200.jpg',
+            src: 'img/gallery/homunkulus_hell_1200.jpg',
             w: 1200,
             h: 1200
         },
