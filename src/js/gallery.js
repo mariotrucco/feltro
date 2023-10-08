@@ -1,6 +1,28 @@
 import PhotoSwipe from 'photoswipe/dist/photoswipe.min.js';
 import PhotoSwipeUI_Default from 'photoswipe/dist/photoswipe-ui-default.min.js';
 var galleries = {
+    ragno: [
+        {
+            src: 'img/gallery/ragno_Ansicht_HINTEN_dunkel_1200.jpg',
+            w: 1200,
+            h: 1200
+        },
+        {
+            src: 'img/carousel/ragno_Ansicht_VORNE_dunkel_1200.jpg',
+            w: 1200,
+            h: 1200
+        },
+        {
+            src: 'img/carousel/ragno_Detail_1200.JPG',
+            w: 1200,
+            h: 1200
+        },
+        {
+            src: 'img/carousel/ragno_Detail2_1200.JPG',
+            w: 1200,
+            h: 1200
+        }
+    ],
     spurensuche: [
         {
             src: 'img/gallery/spurensuche_1200.jpg',
