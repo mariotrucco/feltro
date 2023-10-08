@@ -1,6 +1,33 @@
 import PhotoSwipe from 'photoswipe/dist/photoswipe.min.js';
 import PhotoSwipeUI_Default from 'photoswipe/dist/photoswipe-ui-default.min.js';
 var galleries = {
+    madonna: [
+        {
+            src: 'img/gallery/madonna_iv_1200_firma.jpg',
+            w: 1200,
+            h: 1200
+        },
+        {
+            src: 'img/carousel/madonna_i_detail_1200_firma.jpg',
+            w: 1200,
+            h: 1200
+        },
+        {
+            src: 'img/carousel/madonna_ii_detail3_1200_firma.jpg',
+            w: 1200,
+            h: 1200
+        },
+        {
+            src: 'img/carousel/madonna_ii_detail2_1200_firma.jpg',
+            w: 1200,
+            h: 1200
+        },
+        {
+            src: 'img/carousel/madonna_iv_detail_1200_firma.jpg',
+            w: 1200,
+            h: 1200
+        }
+    ],
     ragno: [
         {
             src: 'img/gallery/ragno_Ansicht_HINTEN_dunkel_1200.jpg',
