@@ -3,7 +3,8 @@ $text-muted: $white-dirty !default;
 $brand-primary:  #292b2c !default;
 $body-bg: $white-dirty;
 $feltro-title-color: #8b8d8e;
-$feltro-title-brackets-color: #96172E;
+$feltro-title-dash-color: #96172E;
+$feltro-title-dash-padding: 1px;
 $btn-secondary-color: $brand-primary;
 
 @import "~bootstrap/scss/bootstrap";
@@ -15,8 +16,10 @@ $btn-secondary-color: $brand-primary;
   color: $feltro-title-color;
 }
 
-.feltro-title-brackets{
-  color: $feltro-title-brackets-color;
+.feltro-title-dash{
+  color: $feltro-title-dash-color;
+  padding-left: $feltro-title-dash-padding;
+  padding-right: $feltro-title-dash-padding;
 }
 
 .navbar-inverse {
@@ -63,6 +66,6 @@ $btn-secondary-color: $brand-primary;
 }
 
 #imgCarousel a{
-  color: $feltro-title-brackets-color;
+  color: $feltro-title-dash-color;
   font-size: 0.95rem;
 }
