@@ -1,6 +1,23 @@
 import PhotoSwipe from 'photoswipe/dist/photoswipe.min.js';
 import PhotoSwipeUI_Default from 'photoswipe/dist/photoswipe-ui-default.min.js';
 var galleries = {
+    spurensuche: [
+        {
+            src: 'img/gallery/spurensuche_1200.jpg',
+            w: 1200,
+            h: 1200
+        },
+        {
+            src: 'img/carousel/spurensuche_detail_1200.jpg',
+            w: 1200,
+            h: 1200
+        },
+        {
+            src: 'img/carousel/spurensuche_detail_2_1200.jpg',
+            w: 1200,
+            h: 1200
+        }
+    ],
     homunkulus: [
         {
             src: 'img/gallery/homunkulus_hell_1200.jpg',

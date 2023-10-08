@@ -172,6 +172,12 @@
 			<div class="album text-muted">
 				<div class="container">
 					<div id="imgCarousel" class="row">
+						<div id="spurensuche" class="card" onclick="openGallery('spurensuche')">
+							<img class="img-fluid" src="img/gallery/spurensuche_1200.jpg" alt="SPURENSUCHE">
+							<h6>SPURENSUCHE &nbsp;&nbsp;<a href="#" onclick="return false;"><%= htmlWebpackPlugin.options.i18n.openGallery %></a></h6>
+							<p><%= htmlWebpackPlugin.options.i18n.spurensucheDesc %></p>
+							<p class="albumText"><%= htmlWebpackPlugin.options.i18n.spurensucheText %></p>
+						</div>
 						<div id="homunkulus" class="card" onclick="openGallery('homunkulus')">
 							<img class="img-fluid" src="img/gallery/homunkulus_hell_1200.jpg" alt="HOMUNKULUS">
 							<h6>HOMUNKULUS IM FERTIGBUNKER &nbsp;&nbsp;<a href="#" onclick="return false;"><%= htmlWebpackPlugin.options.i18n.openGallery %></a></h6>
